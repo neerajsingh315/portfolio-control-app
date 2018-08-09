@@ -10,6 +10,7 @@ namespace portfolio_control_app.Controllers
     {
         public ActionResult Index()
         {
+            System.Diagnostics.Trace.TraceInformation("Index view trace received.");
             return View();
         }
 
